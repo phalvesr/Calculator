@@ -1,0 +1,184 @@
+body {
+    background-color: rgb(37, 37, 37, .2);
+}
+
+#zeroDigit, #oneDigit, #twoDigit, #threeDigit, #fourDigit, #fiveDigit, #sixDigit, #sevenDigit,
+#eightDigit, #nineDigit, #plusDigit, #minusDigit, #timesDigit, #divisionDigit, #dot,
+#openParentheses, #closeParentheses, #clearButton, #igualsToDigit, #inverseOf  {
+    background-color: rgb(37, 37, 37);
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    border: 1px;
+    line-height: 30px;
+    border-style: solid;
+    border-color:whitesmoke;
+    user-select: none;
+}
+
+#display {
+    width: 284px;
+    height: 50px;
+    background-color: rgb(37, 37, 37);
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 1px;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    color: white;
+    letter-spacing: 0.1em;
+    line-height: 75px;
+    text-align: right;
+}
+
+/*First row on the calculator digits*/
+
+#plusDigit {
+    position: absolute;
+    top: 51px;
+    left: 50px;
+}
+
+#minusDigit {
+    position: absolute;
+    top: 51px;
+    left: 121px;
+}
+
+#divisionDigit {
+    position: absolute;
+    top: 51px;
+    left: 193px;
+}
+
+#timesDigit {
+    position: absolute;
+    top: 51px;
+    left: 264px;
+}
+
+/*Second row on the calculator digits:
+    Top : 82px;
+    left: (iguals to the first row)px;*/
+
+#sevenDigit {
+    position: absolute;
+    top: 82px;
+    left: 50px;
+}
+
+#eightDigit {
+    position: absolute;
+    top: 82px;
+    left: 121px;
+}
+
+#nineDigit {
+    position: absolute;
+    top: 82px;
+    left: 193px;
+}
+
+#openParentheses {
+    text-align: center;
+    position: absolute;
+    top: 82px;
+    left: 264px;
+}
+
+/*Third row on the calculator digits
+    top: 113px;
+    left: (same as second row)px; */
+
+#fourDigit {
+    position: absolute;
+    top: 113px;
+    left: 50px;
+}
+
+#fiveDigit {
+    position: absolute;
+    top: 113px;
+    left: 121px;
+}
+
+#sixDigit {
+    position: absolute;
+    top: 113px;
+    left: 193px;
+}
+
+#closeParentheses {
+    text-align: center;
+    position: absolute;
+    top: 113px;
+    left: 264px
+}
+
+/*Fourth row on the calculator
+    top: 144px;
+    left: (same)px*/
+#oneDigit {
+    position: absolute;
+    top: 144px;
+    left: 50px;
+}
+
+#twoDigit {
+    position: absolute;
+    top: 144px;
+    left: 121px;
+}
+#threeDigit {
+    position: absolute;
+    top: 144px;
+    left: 193px;
+}
+
+#inverseOf {
+    position: absolute;
+    top: 144px;
+    left: 264px;
+    font-size: 12pt;
+    font-family: Cambria Math;
+    line-height: 30px;
+}
+/*Fifth row
+    top: 175px;
+    left: (same)px;*/
+#zeroDigit {
+    position: absolute;
+    top: 175px;
+    left: 121px;
+}
+
+#dot {
+    position: absolute;
+    top: 175px;
+    left: 193px;
+    text-align: center;
+    line-height: 15px;
+}
+
+#calculadora {
+    position: absolute;
+    top: 300;
+    left: 500;
+}
+
+#clearButton {
+    position: absolute;
+    top: 175px;
+    left: 50px;
+    text-align: center;
+}
+
+#igualsToDigit {
+    position: absolute;
+    top: 175px;
+    left: 264px;
+}
